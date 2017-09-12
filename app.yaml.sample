@@ -1,0 +1,8 @@
+runtime: go
+version: 1
+api_version: go1.8
+service: ical2json
+
+handlers:
+  - url: /.*
+    script: _go_app
